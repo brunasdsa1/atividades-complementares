@@ -1,4 +1,0 @@
-var PESSOA ="Dimitri";
-var pessoa ="Teixeira"
-
-console.log(pessoa);
