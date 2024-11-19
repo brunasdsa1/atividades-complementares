@@ -1,0 +1,7 @@
+/*
+Autora bruna 
+script feito em 19-11-24
+*/
+document.
+getElementById("reforco").innerHTML =
+ "meu primeiro texto <b>Js</b>";
