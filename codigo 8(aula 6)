@@ -1,0 +1,13 @@
+// declaração de variavel 
+var nome, sobrenome, nomeCompleto, soma ;
+
+// atribuição de valores
+nome = "Dimitri";
+sobrenome = "Texeira";
+idade = 30
+soma = idade + 10;
+pessoa = nome + " " + soma;
+// construção do nome completo 
+nomeCompleto = nome + " " + sobrenome;
+
+document.getElementById("texto").innerHTML = pessoa;
