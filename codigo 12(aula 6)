@@ -1,0 +1,6 @@
+let x=10 // aqui é 10
+{
+    let x=2;// aqui é 2
+}
+// aqui também é  vai ser 2
+document.getElementById("texto").innerHTML = x;
