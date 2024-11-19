@@ -1,0 +1,4 @@
+// inserindo um texto no paragrafo 
+document.
+getElementById("reforco").innerHTML =
+ "meu primeiro texto <b>Js</b>";
