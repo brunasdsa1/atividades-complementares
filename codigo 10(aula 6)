@@ -1,3 +1,0 @@
-var pessoa = "Dimitri";
-var pessoa = "joão"
-alert(pessoa)
