@@ -1,0 +1,7 @@
+// declaração de variaveis 
+var a,b,c;
+// atribuição dos valores 
+ //a=2
+ //b=3
+ //c= a + b;
+alert(c)
