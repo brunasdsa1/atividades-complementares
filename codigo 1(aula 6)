@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<script src="declaração.js"></script>
+<h1>Aprendendo javascript</h1>
+
+<script>
+var pote = "bombom"
+alert(pote);
+ </script>
+</body>
+</html>
