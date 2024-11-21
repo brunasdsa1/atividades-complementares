@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+</head>
+<body>
+<h1>operadores</h1>
+<script>
+var valor1, valor2,valor3 
+valor1=8;
+valor2=12;
+
+total=(valor1 >= 8);// true(verdadeiro)ou false(falso);
+alert(total)
+</script>
+
+</body>
+</html>
