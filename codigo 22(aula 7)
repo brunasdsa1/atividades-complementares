@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+</head>
+<body>
+<h1>operadores</h1>
+<script>
+var idade,eleitor,resultado
+idade=65;
+eleitor=(idade<18) ? "Não, eleitor":"Sim, eleitor"
+resultado =(idade ===65 || idadde=== 72);//true //false
+alert(resultado);
+</script>
+
+</body>
+</html>
