@@ -6,14 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-<title>Aprendendo js</title>
-<h1>Soma</h1>
-<p id="texto"></p>
-<script> 
+<script>
     function soma(valor1,valor2) {
         return valor1 + valor2;
     }
-    var  total = soma(10,23);
+    function realParadolar(real,CotacaoDolar){
+        return real * CotacaoDolar;
+    }
+    var total = realParadolar(10,5.08)
     alert(total);
 </script>
 </body>
