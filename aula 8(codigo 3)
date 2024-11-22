@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function soma(valor1, valor2) {
+        return valor1 + valor2;
+    }
+    function realParaDolar(real,cotacaoDolar) {
+        return real * cotacaoDolar;
+    }
+    var valorReal = 7.89;
+    var cotacaoDolar = 5.08
+    var total= realParaDolar(valorReal,cotacaoDolar);
+    alert("o valor real é r$:" +valorReal+"o valor em dolar U$ é: " +total);
+</script>
+</body>
+</html>
