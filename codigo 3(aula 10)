@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<script src="eventos.js"></script>
+<h1>Aprendendo javascript</h1>
+<button ondblclick="eventodblclick()">Clique aqui</button>
+<script>
+function eventodblclick(){
+    alert('evento de clique duplo');
+    
+}
+</script>
+
+</body>
+</html>
