@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JS</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<script src="eventos.js"></script>
+<h1>Aprendendo javascript</h1>
+<div id="eventos"></div>
+<script>
+function viraVermelho() {
+    let div= document.getElementById("eventos")
+    div.style.backgroundColor = "red";
+}
+function viraAzul() {
+    let div= document.getElementById("eventos")
+    div.style.backgroundColor = "blue";
+}
+</script>
+
+<button ondblclick="eventoDblClick()">Clique aqui</button>
+</body>
+</html>
