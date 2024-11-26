@@ -14,6 +14,12 @@
 <script src="eventos.js"></script>
 <h1>Aprendendo javascript</h1>
 <button onclick="eventoclick()">Clique aqui</button>
-<script src="eventos.js"></script>
+<script>
+function eventoclick(){
+    alert('acionou um evento');
+    
+}
+</script>
+
 </body>
 </html>
