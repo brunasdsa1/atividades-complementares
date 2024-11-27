@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onmousedown="alert('clicou na tela')">
+<h1>Aprendendo javascript</h1>
+<p id="texto"></p> 
+<div id="teste" onmouseout="viraAzul()"onmouseover="viraVermelho()"style="margin: auto auto; width:80%; height: 200px; background-color: blue;"></div>
+<script>
+    function viraVermelho(){
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "red";
+
+} 
+function viraAzul() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "blue";
+}
+
+</script>
+
+    
+
+
+
+    
+</body>
+</html>
