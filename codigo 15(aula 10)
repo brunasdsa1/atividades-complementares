@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<br>
+</div>
+<select onblur="mudou()" id="items">   
+    <option value="green">verde</option>
+    <option value="red">vermelho</option>
+    <option value="blue">azul</option>
+    <option value="yellow">amarelo</option>
+    <br>
+</select>
+<script>
+    function mudou() {
+       const selectElement =document.getElementById("items");
+       const selectedColor= selectElement.value;
+       document.body.style.backgroundColor = selectedColor;// altera fundo
+    }
+</script>
+
+
+    
+</body>
+</html>
