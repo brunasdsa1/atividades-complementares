@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<br>
+</div>
+<input onfocus="limpatexto()" id="campoTexto" placeholder="dige alguma coisa" value="ja vem com texto">
+<button onclick="limpatexto()">Limpar texto</button>
+<script>
+    function limpatexto() {
+        document.getElementById("campoTexto").value = "";
+    }
+</script>
+
+
+    
+</body>
+</html>
