@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<br>
+<div id="teste"></div>
+<script>
+const numeros = [40,100,1,5,25,10];
+const maior20 = numeros.filter(filtragem);
+document.getElementById("teste").innerHTML = maior20;
+function filtragem(value,index,array){
+    return value > 20;
+}
+</script>
+</body>
+</html>
