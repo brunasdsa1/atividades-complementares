@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<p id="teste"></p>
+<br>
+<input id="nome" type="text" style="padding:50; font-size: 50px; placeholder="digite texto">
+<button style="padding:70px" onclick="verificar()">Verificar</button>
+<script>
+    function verificar() {
+        let nome = document.getElementById("nome").value;
+        if (nome ==" " || nome == null) {
+            let p = document.getElementById("teste");
+            p.innerHTML = "O campo não pode estar vazio";
+            p.style.color = "red";
+        }
+    }
+</script>
+</script>
+</body>
+</html>
