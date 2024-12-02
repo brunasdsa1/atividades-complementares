@@ -12,7 +12,8 @@
 <script>
 const lista1 = ["arroz","feijão","leite","macarrão"];
 const lista2 = ["suco","refrigerante","carne"];
-const superLista = lista1.concat(lista2);
+const lista3 = ["salgadinho"]
+const superLista = lista1.concat(lista2,lista3);
 document.getElementById("teste").innerHTML = superLista;
 </script>
 </body>
