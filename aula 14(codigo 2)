@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<p id="teste"></p>
+<br>
+<input id="cor" type="text" style="padding:50px; font-size: 50px"; placeholder="digite uma cor">
+<button style="padding:70px" onclick="verificarCor()">Verificar cor</button>
+<script>
+    function verificarCor() {
+        let x ="0";
+        switch(x){
+        case "0":
+        document.getElementById("teste").innerHTML = "a varivel é zero";
+        break;
+        default:
+            document.getElementById("teste").innerHTML ="não foi encontrado";
+    }
+}
+</script>
+</body>
+</html>
