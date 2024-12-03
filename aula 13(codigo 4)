@@ -13,12 +13,17 @@
 <button style="padding:70px" onclick="verificar()">Verificar</button>
 <script>
     function verificar() {
-        let nome = document.getElementById("nome").value;
-        if (nome =="" || nome == null) {
-            let p = document.getElementById("teste");
-            p.innerHTML = "O campo não pode estar vazio";
-            p.style.color = "red";
-        }
+       let nome = document.getElementById("nome").value;
+       let p = document.getElementById("teste");
+
+       if (nome ==="" || nome === null){
+       p.innerHTML ="o campo não pode estar vazio";
+       p.style.color ="red";
+       } else {
+        p.innerHTML = "Parabéns, tudo certo";
+        p.style.color = "green";
+       }
+            
     }
 </script>
 </body>
