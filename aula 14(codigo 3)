@@ -12,9 +12,9 @@
 <input id="cor" type="text" style="padding:50px; font-size: 50px"; placeholder="digite uma cor">
 <button style="padding:70px" onclick="verificarCor()">Verificar cor</button>
 <script>
-    function verificarCor()
+    function verificarCor() {
     let cor= document.getElementById("cor").value;
-    cor = cor.tolowerCase();
+    cor = cor.toLowerCase();
     switch (cor) {
         case "azul":
             document.body.style.backgroundColor ="blue";
@@ -24,9 +24,9 @@
                 break;
             case "amarelo":
                 document.body.style.backgroundColor="yellow";
-                break
+                break;
                 default:
-                    document.getElementById("teste").innerHTML = "nenhuma cor disponivel para: + cor;" 
+                    document.getElementById("teste").innerHTML = "nenhuma cor disponivel para:" + cor; 
 
 
     }
