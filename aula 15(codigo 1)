@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Apredendo javascript</h1>
+<p id="teste"></p><br>
+<script>
+for (let i=0; i<10001; i++) {
+    document.getElementById("teste").innerHTML += i + ", ";
+}
+</script>
+    
+</body>
+</html>
