@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+<h1>Aprendendo javascript</h1>
+<p id="mensagem"></p>
+<input id="CampoDia" type="text" style="padding:50px; font-size: 50px;" placeholder="digite um dia da semana">
+<button style="padding:70px" onclick="verificaDiadaSemana()">Verificar dia da semana</button>
+<script>
+    function verificaDiadaSemana(){
+    let dia = document.getElementById("CampoDia").value.toLowerCase();
+    let mensagem = document.getElementById("mensagem");
+    switch(dia) {
+        case "segunda":
+            mensagem.innerHTML ="hoje é segunda-feira!";
+            break;
+        case "terça":
+              mensagem.innerHTML ="hoje é terça-feira!";
+              break;
+              case "quarta":
+                     mensagem.innerHTML ="hoje é quarta-feira!";
+                     break;
+              case "quinta":
+                    mensagem.innerHTML ="hoje é quinta-feira!";
+                    break;
+              case "sexta":
+                    mensagem.innerHTML ="hoje é sexta-feira!";
+                    break;
+             case "sabado":
+                    mensagem.innerHTML ="hoje é sabado!";
+                    break;
+            case "domingo":
+                    mensagem.innerHTML ="hoje é domingo!";
+                    break;
+                    default:
+                    mensagem.innerHTML = "por favor insira um dia válido da semana";
+
+    }
+}
+    
+</script>
+</body>
+</html>
