@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .stop-button {
+        background-color: #ee243c;
+        color:white;
+        border: none;
+        padding: 50px 30px;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+        .start-button  {
+            background-color: #0de589;
+            color:white;
+            border: none;
+            padding: 50px 30px;
+            font-size: 16px;
+            border: 5px;
+
+        }
+    </style>
+</head>
+<body>
+<h1>Controle de tempo</h1>
+<h2 id="tempo">0</h2>
+<button  onclick="ativarContagem()"class="start-button">Iniciar contagem</button>
+<button onclick="pararContagem()"class="stop-button">Parar contagem</button>
+<script>
+// varivel global 
+let tempo = null
+function ativarContagem() {
+    if (tempo) return; 
+    tempo = setInterval(function() {
+        var cronometro = document.getElementById('tempo').innerHTML;
+        var soma = parseInt(cronometro) + 1;
+        document.getElementById('tempo').innerHTML = soma;
+    }, 1000);
+}
+function pararContagem() {
+    clearInterval(tempo);
+    tempo = null;
+}
+
+
+</script>
+
+</body>
+</html>
