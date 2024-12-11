@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data</title>
+</head>
+<body>
+<h1>data</h1>
+<script>
+let data = new Date();
+const diaDasemana = ["Domingo","Segunda","Terça","Quarta","Quinta","Sexta","Sabado"];
+let diaSemanaEscrito = diaDasemana[data.getDay()];
+console.log(diaSemanaEscrito);
+
+</script>
+</body>
+</html>
