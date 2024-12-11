@@ -8,10 +8,10 @@
 <body>
 <h1>data</h1>
 <script>
-var dataInicial = new date();
-var dataFinal = new date(2024,11,31);
+var dataInicial = new Date();
+var dataFinal = new Date(2024,11,31);
 var diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
-var diferencaDias = Math.cell(diferencaTempo(24 * 60 * 60 * 1000));
+var diferencaDias = Math.ceil(diferencaTempo /(24 * 60 * 60 * 1000));
 console.log(diferencaDias);
 </script>
 </body>
