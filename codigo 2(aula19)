@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+</head>
+<body>
+<h1>JSON</h1>
+<pre id="area"></pre>
+<script>
+const carro = {
+    marca:"fiat",
+    modelo:"Uno",
+    ano:2001
+}
+let texto = JSON.stringify(carro);
+document.getElementById('area').innerHTML = texto;
+console.log(texto.modelo);
+</script>
+</body>
+</html>
