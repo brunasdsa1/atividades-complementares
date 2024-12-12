@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+</head>
+<body>
+<h1>JSON</h1>
+<center>
+    <input id="cep" type="text" placeholder="digite seu CEP">
+    <button onclick="buscarCep()">Buscar</button>
+    <p id="texto"></p>
+</center>
+<script>
+function buscarCep() {
+    let input = document.getElementById('cep').value;
+    if (!input) {
+        document.getElementById('texto').innerHTML ="Por favor insira um cep valido."
+        return;
+    
+        
+    }
+}
+const ajax = new XMLHttpRequest();
+ajax.open('GET','viacep.com.br/ws/01001000/json/' + input + '/json/');
+ajax.send();
+ajax.onload = function () {
+    if (ajax.status === 200) {
+        document.getElementById('texto').innerHTML = ajax.responseText;
+    }else {
+        document.getElementById('texto').innerHTML = "erro ao buscar o CEP";
+    }
+};
+
+</script>
+</body>
+</html>
