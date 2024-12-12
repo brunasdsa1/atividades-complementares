@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro</title>
+</head>
+<body>
+<h1>JSON</h1>
+<pre id="area"></pre>
+<script>
+const ajax = new XMLHttpRequest();
+ajax.open('GET','https://viacep.com.br/ws/85802000/json/');
+ajax.send();
+ajax.onload = function () {
+    document.getElementById('area').innerHTML = this.responseText;
+    let obj = JSON.parse(this.responseText);
+    alert(obj.ddd);
+}
+</script>
+</body>
+</html>
